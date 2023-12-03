@@ -84,7 +84,7 @@ namespace Tyuiu.ShtokerVN.Sprint6.Task3.V19
 
         private void buttonHelp_SHVN_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 3 выполнил студент группы ИИПБ-23-1 Штокер Владимир Николаевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Таск 3 выполнил студент группы ИИПБ-23-1 Штокер Владимир Николаевич.", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

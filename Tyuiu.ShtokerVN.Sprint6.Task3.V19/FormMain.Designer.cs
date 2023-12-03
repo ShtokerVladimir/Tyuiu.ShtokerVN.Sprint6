@@ -30,16 +30,16 @@ namespace Tyuiu.ShtokerVN.Sprint6.Task3.V19
         private void InitializeComponent()
         {
             this.groupBoxTask_SHVN = new System.Windows.Forms.GroupBox();
+            this.dataGridViewMatrix_SHVN = new System.Windows.Forms.DataGridView();
+            this.labelCondition_SHVN = new System.Windows.Forms.Label();
+            this.labelMatrix6_SHVN = new System.Windows.Forms.Label();
+            this.labelMatrix5_SHVN = new System.Windows.Forms.Label();
+            this.labelMatrix4_SHVN = new System.Windows.Forms.Label();
+            this.labelMatrix3_SHVN = new System.Windows.Forms.Label();
+            this.labelMatrix2_SHVN = new System.Windows.Forms.Label();
+            this.labelMatrix_SHVN = new System.Windows.Forms.Label();
             this.buttonHelp_SHVN = new System.Windows.Forms.Button();
             this.buttonDoneClick_SHVN = new System.Windows.Forms.Button();
-            this.labelMatrix_SHVN = new System.Windows.Forms.Label();
-            this.labelMatrix2_SHVN = new System.Windows.Forms.Label();
-            this.labelMatrix3_SHVN = new System.Windows.Forms.Label();
-            this.labelMatrix4_SHVN = new System.Windows.Forms.Label();
-            this.labelMatrix5_SHVN = new System.Windows.Forms.Label();
-            this.labelMatrix6_SHVN = new System.Windows.Forms.Label();
-            this.labelCondition_SHVN = new System.Windows.Forms.Label();
-            this.dataGridViewMatrix_SHVN = new System.Windows.Forms.DataGridView();
             this.groupBoxTask_SHVN.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMatrix_SHVN)).BeginInit();
             this.SuspendLayout();
@@ -54,19 +54,106 @@ namespace Tyuiu.ShtokerVN.Sprint6.Task3.V19
             this.groupBoxTask_SHVN.Controls.Add(this.labelMatrix3_SHVN);
             this.groupBoxTask_SHVN.Controls.Add(this.labelMatrix2_SHVN);
             this.groupBoxTask_SHVN.Controls.Add(this.labelMatrix_SHVN);
-            this.groupBoxTask_SHVN.Location = new System.Drawing.Point(12, 12);
+            this.groupBoxTask_SHVN.Location = new System.Drawing.Point(18, 18);
+            this.groupBoxTask_SHVN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBoxTask_SHVN.Name = "groupBoxTask_SHVN";
-            this.groupBoxTask_SHVN.Size = new System.Drawing.Size(571, 426);
+            this.groupBoxTask_SHVN.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBoxTask_SHVN.Size = new System.Drawing.Size(856, 655);
             this.groupBoxTask_SHVN.TabIndex = 0;
             this.groupBoxTask_SHVN.TabStop = false;
             this.groupBoxTask_SHVN.Text = "Условие";
             // 
+            // dataGridViewMatrix_SHVN
+            // 
+            this.dataGridViewMatrix_SHVN.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewMatrix_SHVN.ColumnHeadersVisible = false;
+            this.dataGridViewMatrix_SHVN.Location = new System.Drawing.Point(466, 25);
+            this.dataGridViewMatrix_SHVN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dataGridViewMatrix_SHVN.Name = "dataGridViewMatrix_SHVN";
+            this.dataGridViewMatrix_SHVN.RowHeadersVisible = false;
+            this.dataGridViewMatrix_SHVN.RowHeadersWidth = 62;
+            this.dataGridViewMatrix_SHVN.Size = new System.Drawing.Size(381, 622);
+            this.dataGridViewMatrix_SHVN.TabIndex = 7;
+            this.dataGridViewMatrix_SHVN.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewMatrix_SHVN_CellContentClick);
+            // 
+            // labelCondition_SHVN
+            // 
+            this.labelCondition_SHVN.AutoSize = true;
+            this.labelCondition_SHVN.Location = new System.Drawing.Point(9, 148);
+            this.labelCondition_SHVN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelCondition_SHVN.Name = "labelCondition_SHVN";
+            this.labelCondition_SHVN.Size = new System.Drawing.Size(442, 20);
+            this.labelCondition_SHVN.TabIndex = 6;
+            this.labelCondition_SHVN.Text = "Выполнить сортировку по возрастанию в пятом столбце";
+            // 
+            // labelMatrix6_SHVN
+            // 
+            this.labelMatrix6_SHVN.AutoSize = true;
+            this.labelMatrix6_SHVN.Location = new System.Drawing.Point(9, 128);
+            this.labelMatrix6_SHVN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelMatrix6_SHVN.Name = "labelMatrix6_SHVN";
+            this.labelMatrix6_SHVN.Size = new System.Drawing.Size(115, 20);
+            this.labelMatrix6_SHVN.TabIndex = 5;
+            this.labelMatrix6_SHVN.Text = "-10 25  5 27 21";
+            // 
+            // labelMatrix5_SHVN
+            // 
+            this.labelMatrix5_SHVN.AutoSize = true;
+            this.labelMatrix5_SHVN.Location = new System.Drawing.Point(9, 108);
+            this.labelMatrix5_SHVN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelMatrix5_SHVN.Name = "labelMatrix5_SHVN";
+            this.labelMatrix5_SHVN.Size = new System.Drawing.Size(102, 20);
+            this.labelMatrix5_SHVN.TabIndex = 4;
+            this.labelMatrix5_SHVN.Text = " 7 -15 2 -8 12";
+            // 
+            // labelMatrix4_SHVN
+            // 
+            this.labelMatrix4_SHVN.AutoSize = true;
+            this.labelMatrix4_SHVN.Location = new System.Drawing.Point(9, 85);
+            this.labelMatrix4_SHVN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelMatrix4_SHVN.Name = "labelMatrix4_SHVN";
+            this.labelMatrix4_SHVN.Size = new System.Drawing.Size(116, 20);
+            this.labelMatrix4_SHVN.TabIndex = 3;
+            this.labelMatrix4_SHVN.Text = "-3 18 12 -10 29";
+            // 
+            // labelMatrix3_SHVN
+            // 
+            this.labelMatrix3_SHVN.AutoSize = true;
+            this.labelMatrix3_SHVN.Location = new System.Drawing.Point(9, 65);
+            this.labelMatrix3_SHVN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelMatrix3_SHVN.Name = "labelMatrix3_SHVN";
+            this.labelMatrix3_SHVN.Size = new System.Drawing.Size(103, 20);
+            this.labelMatrix3_SHVN.TabIndex = 2;
+            this.labelMatrix3_SHVN.Text = "17 15 -1 -2 -1";
+            this.labelMatrix3_SHVN.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // labelMatrix2_SHVN
+            // 
+            this.labelMatrix2_SHVN.AutoSize = true;
+            this.labelMatrix2_SHVN.Location = new System.Drawing.Point(9, 45);
+            this.labelMatrix2_SHVN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelMatrix2_SHVN.Name = "labelMatrix2_SHVN";
+            this.labelMatrix2_SHVN.Size = new System.Drawing.Size(111, 20);
+            this.labelMatrix2_SHVN.TabIndex = 1;
+            this.labelMatrix2_SHVN.Text = "4 32 -20 27 21";
+            // 
+            // labelMatrix_SHVN
+            // 
+            this.labelMatrix_SHVN.AutoSize = true;
+            this.labelMatrix_SHVN.Location = new System.Drawing.Point(9, 25);
+            this.labelMatrix_SHVN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelMatrix_SHVN.Name = "labelMatrix_SHVN";
+            this.labelMatrix_SHVN.Size = new System.Drawing.Size(165, 20);
+            this.labelMatrix_SHVN.TabIndex = 0;
+            this.labelMatrix_SHVN.Text = "Дана матрица 5 на 5";
+            // 
             // buttonHelp_SHVN
             // 
             this.buttonHelp_SHVN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonHelp_SHVN.Location = new System.Drawing.Point(586, 415);
+            this.buttonHelp_SHVN.Location = new System.Drawing.Point(879, 638);
+            this.buttonHelp_SHVN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonHelp_SHVN.Name = "buttonHelp_SHVN";
-            this.buttonHelp_SHVN.Size = new System.Drawing.Size(32, 23);
+            this.buttonHelp_SHVN.Size = new System.Drawing.Size(48, 35);
             this.buttonHelp_SHVN.TabIndex = 2;
             this.buttonHelp_SHVN.Text = "?";
             this.buttonHelp_SHVN.UseVisualStyleBackColor = true;
@@ -74,97 +161,24 @@ namespace Tyuiu.ShtokerVN.Sprint6.Task3.V19
             // 
             // buttonDoneClick_SHVN
             // 
-            this.buttonDoneClick_SHVN.Location = new System.Drawing.Point(644, 415);
+            this.buttonDoneClick_SHVN.Location = new System.Drawing.Point(966, 638);
+            this.buttonDoneClick_SHVN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonDoneClick_SHVN.Name = "buttonDoneClick_SHVN";
-            this.buttonDoneClick_SHVN.Size = new System.Drawing.Size(144, 23);
+            this.buttonDoneClick_SHVN.Size = new System.Drawing.Size(216, 35);
             this.buttonDoneClick_SHVN.TabIndex = 2;
             this.buttonDoneClick_SHVN.Text = "Выполнить";
             this.buttonDoneClick_SHVN.UseVisualStyleBackColor = true;
             this.buttonDoneClick_SHVN.Click += new System.EventHandler(this.buttonDoneClick_SHVN_Click);
             // 
-            // labelMatrix_SHVN
-            // 
-            this.labelMatrix_SHVN.AutoSize = true;
-            this.labelMatrix_SHVN.Location = new System.Drawing.Point(6, 16);
-            this.labelMatrix_SHVN.Name = "labelMatrix_SHVN";
-            this.labelMatrix_SHVN.Size = new System.Drawing.Size(113, 13);
-            this.labelMatrix_SHVN.TabIndex = 0;
-            this.labelMatrix_SHVN.Text = "Дана матрица 5 на 5";
-            // 
-            // labelMatrix2_SHVN
-            // 
-            this.labelMatrix2_SHVN.AutoSize = true;
-            this.labelMatrix2_SHVN.Location = new System.Drawing.Point(6, 29);
-            this.labelMatrix2_SHVN.Name = "labelMatrix2_SHVN";
-            this.labelMatrix2_SHVN.Size = new System.Drawing.Size(76, 13);
-            this.labelMatrix2_SHVN.TabIndex = 1;
-            this.labelMatrix2_SHVN.Text = "4 32 -20 27 21";
-            // 
-            // labelMatrix3_SHVN
-            // 
-            this.labelMatrix3_SHVN.AutoSize = true;
-            this.labelMatrix3_SHVN.Location = new System.Drawing.Point(6, 42);
-            this.labelMatrix3_SHVN.Name = "labelMatrix3_SHVN";
-            this.labelMatrix3_SHVN.Size = new System.Drawing.Size(70, 13);
-            this.labelMatrix3_SHVN.TabIndex = 2;
-            this.labelMatrix3_SHVN.Text = "17 15 -1 -2 -1";
-            this.labelMatrix3_SHVN.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // labelMatrix4_SHVN
-            // 
-            this.labelMatrix4_SHVN.AutoSize = true;
-            this.labelMatrix4_SHVN.Location = new System.Drawing.Point(6, 55);
-            this.labelMatrix4_SHVN.Name = "labelMatrix4_SHVN";
-            this.labelMatrix4_SHVN.Size = new System.Drawing.Size(79, 13);
-            this.labelMatrix4_SHVN.TabIndex = 3;
-            this.labelMatrix4_SHVN.Text = "-3 18 12 -10 29";
-            // 
-            // labelMatrix5_SHVN
-            // 
-            this.labelMatrix5_SHVN.AutoSize = true;
-            this.labelMatrix5_SHVN.Location = new System.Drawing.Point(6, 70);
-            this.labelMatrix5_SHVN.Name = "labelMatrix5_SHVN";
-            this.labelMatrix5_SHVN.Size = new System.Drawing.Size(70, 13);
-            this.labelMatrix5_SHVN.TabIndex = 4;
-            this.labelMatrix5_SHVN.Text = " 7 -15 2 -8 12";
-            // 
-            // labelMatrix6_SHVN
-            // 
-            this.labelMatrix6_SHVN.AutoSize = true;
-            this.labelMatrix6_SHVN.Location = new System.Drawing.Point(6, 83);
-            this.labelMatrix6_SHVN.Name = "labelMatrix6_SHVN";
-            this.labelMatrix6_SHVN.Size = new System.Drawing.Size(79, 13);
-            this.labelMatrix6_SHVN.TabIndex = 5;
-            this.labelMatrix6_SHVN.Text = "-10 25  5 27 21";
-            // 
-            // labelCondition_SHVN
-            // 
-            this.labelCondition_SHVN.AutoSize = true;
-            this.labelCondition_SHVN.Location = new System.Drawing.Point(6, 96);
-            this.labelCondition_SHVN.Name = "labelCondition_SHVN";
-            this.labelCondition_SHVN.Size = new System.Drawing.Size(299, 13);
-            this.labelCondition_SHVN.TabIndex = 6;
-            this.labelCondition_SHVN.Text = "Выполнить сортировку по возрастанию в пятом столбце.";
-            // 
-            // dataGridViewMatrix_SHVN
-            // 
-            this.dataGridViewMatrix_SHVN.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewMatrix_SHVN.ColumnHeadersVisible = false;
-            this.dataGridViewMatrix_SHVN.Location = new System.Drawing.Point(311, 16);
-            this.dataGridViewMatrix_SHVN.Name = "dataGridViewMatrix_SHVN";
-            this.dataGridViewMatrix_SHVN.RowHeadersVisible = false;
-            this.dataGridViewMatrix_SHVN.Size = new System.Drawing.Size(254, 404);
-            this.dataGridViewMatrix_SHVN.TabIndex = 7;
-            this.dataGridViewMatrix_SHVN.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewMatrix_SHVN_CellContentClick);
-            // 
             // FormMain_SHVN
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.buttonDoneClick_SHVN);
             this.Controls.Add(this.buttonHelp_SHVN);
             this.Controls.Add(this.groupBoxTask_SHVN);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "FormMain_SHVN";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
