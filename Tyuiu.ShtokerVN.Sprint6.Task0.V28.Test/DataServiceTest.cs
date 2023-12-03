@@ -11,9 +11,9 @@ namespace Tyuiu.ShtokerVN.Sprint6.Task0.V28.Test
         public void ValidCalc()
         {
             DataService ds = new DataService();
-            double res = ds.Calculate(3);
+            double zxc = ds.Calculate(3);
             double wait = 169.89;
-            Assert.AreEqual(wait, res);
+            Assert.AreEqual(wait, zxc);
         }
     }
 }

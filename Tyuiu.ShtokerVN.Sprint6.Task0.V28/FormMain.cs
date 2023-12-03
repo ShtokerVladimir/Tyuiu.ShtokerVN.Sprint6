@@ -11,9 +11,9 @@ using Tyuiu.ShtokerVN.Sprint6.Task0.V28.Lib;
 
 namespace Tyuiu.ShtokerVN.Sprint6.Task0.V28
 {
-    public partial class FormMain : Form
+    public partial class FormMain_SHVN : Form
     {
-        public FormMain()
+        public FormMain_SHVN()
         {
             InitializeComponent();
         }
@@ -33,7 +33,7 @@ namespace Tyuiu.ShtokerVN.Sprint6.Task0.V28
 
         private void buttonNamedTwo_SHVN_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 0 выполнил студент группы ИИПБ-23-1 Штокер Владимир Николаевич", "Сообщение");
+            MessageBox.Show("Таск 0 выполнил студент группы ИИПБ-23-1 Штокер Владимир Николаевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
