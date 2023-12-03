@@ -16,7 +16,7 @@ namespace Tyuiu.ShtokerVN.Sprint6.Task1.V7
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new FormMain_SHVN());
         }
     }
 }

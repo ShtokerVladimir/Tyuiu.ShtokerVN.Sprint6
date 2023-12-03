@@ -31,10 +31,10 @@ namespace Tyuiu.ShtokerVN.Sprint6.Task1.V7.Test
             valueWaitArray[9] = 6.49;
             valueWaitArray[10] = 6.32;
 
-            double[] res;
-            res = new double[len];
-            res = ds.GetMassFunction(startValue, stopValue);
-            CollectionAssert.AreEqual(valueWaitArray, res);
+            double[] cucold;
+            cucold = new double[len];
+            cucold = ds.GetMassFunction(startValue, stopValue);
+            CollectionAssert.AreEqual(valueWaitArray, cucold);
 
         }
     }

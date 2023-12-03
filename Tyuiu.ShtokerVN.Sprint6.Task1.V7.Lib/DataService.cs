@@ -14,13 +14,13 @@ namespace Tyuiu.ShtokerVN.Sprint6.Task1.V7.Lib
             double[] valueArray;
             int len = (stopValue - startValue) + 1;
             valueArray = new double[len];
-            double y;
+            double z;
             int count = 0;
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round((((2 * x - 3)/(Math.Cos(x) + x)) + 5), 2);
-                valueArray[count] = y;
+                z = Math.Round((((2 * x - 3)/(Math.Cos(x) + x)) + 5), 2);
+                valueArray[count] = z;
                 count++;
             }
             return valueArray;

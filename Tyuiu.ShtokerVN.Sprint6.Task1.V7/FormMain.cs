@@ -11,9 +11,9 @@ using Tyuiu.ShtokerVN.Sprint6.Task1.V7.Lib;
 
 namespace Tyuiu.ShtokerVN.Sprint6.Task1.V7
 {
-    public partial class FormMain : Form
+    public partial class FormMain_SHVN : Form
     {
-        public FormMain()
+        public FormMain_SHVN()
         {
             InitializeComponent();
         }
