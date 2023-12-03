@@ -28,8 +28,8 @@ namespace Tyuiu.ShtokerVN.Sprint6.Task2.V6.Test
             array[9] = 38.13;
             array[10] = 59.6;
 
-            double[] res = ds.GetMassFunction(startStep, stopStep);
-            CollectionAssert.AreEqual(array, res);
+            double[] clown = ds.GetMassFunction(startStep, stopStep);
+            CollectionAssert.AreEqual(array, clown);
         }
     }
 }
